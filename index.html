@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mon profil</title>
+        <link rel="stylesheet" href="semanstyle.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <h1> Hello l'm Gilles Brant </h1>
+            <p>Développeur web (Laravel , HTML ,CSS , JavaScript) </p>
+        </header>
+        <main>
+            <section id="apropos">
+                <h2>A propos de moi</h2>
+                <p>
+                    Passionné par le développement web depuis plusieurs années, je conçois des
+                    applications web robustes et élégantes en combinant la puissance de
+                    <strong>Laravel</strong> et la fluidité de
+                    <strong>JavaScript</strong> . J'attache une grande importance
+                    à l'expérience utilisateur, c'est pourquoi le <strong> CSS</strong>
+                    est devenu mon outil de prédilection pour un design propre et réactif.
+                </p>
+                <p>
+                    Je suis actuellement en formation à AKIENY ACAKEMY , pour aquerir plus
+                    de competences en developpement fullstack
+                </p>
+              
+                <h2>Mes projets</h2>
+                <article>
+                    <header>
+                        <h3>Duoling'APP</h3>
+                    </header>
+                    <p>
+                        Applications web pour la formation  de binomes  <br>pour des groupes de travail
+                    </p>
+                </article>
+                <article>
+                    <header>
+                      <h3>Game Store</h3>
+                    </header>
+                    <p>
+                      Boutique en ligne d'achat de jeux videos
+                    </p>
+                </article>
+              </section>
+              <aside>
+                <h2>En formation Developpeur Fullstack à  Akieny Academy</h2>
+                <p>
+                  Je me perfectionne sur le developpement frontend et backend  
+                </p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>#JavaScript</li>
+                  <li>React</li>
+                  <li>NodeJS</li>
+                </ul>
+              </aside>
+              <section id="contact">
+                <h2>Me Contacter</h2>
+                <p>
+                  Vous avez une idée d'application web , contactez nous , je serais ravis de travailler avec vous 
+                </p>
+         
+                <form>
+                  <fieldset>
+                    <legend>Vos informations</legend>
+         
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" placeholder="Ex :Gilles Brant">
+         
+                    <label for="email">Adresse mail</label>
+                    <input type="email" id="email" name="email" placeholder="Ex : marie@exemple.com">
+         
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="Ex : +242 06 768 45 00">
+                  </fieldset>
+                  <fieldset>
+                    <legend>Votre message</legend>
+         
+                    <label for="sujet">Sujet du message</label>
+                    <select id="sujet" name="sujet" required>
+                      <option value="" disabled selected>Choisissez un sujet</option>
+                      <option value="projet">Proposition de projet</option>
+                      <option value="freelance">Mission freelance</option>
+                      <option value="emploi">Offre d'emploi</option>
+                      <option value="collaboration">Collaboration</option>
+                      <option value="autre">Autre</option>
+                    </select>
+         
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Décrivez votre projet ou votre demande" required></textarea>
+                  </fieldset>
+                  <button type="submit">Envoyer le message</button>
+                </form>
+              </section>
+        </main>
+        <footer>
+            <p>© 2025 Gilles BITEMO | Akieny Academy</p>
+            <address>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Mon GitHub</a>
+              
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">Mon LinkedIn</a>
+            </address>
+          </footer>
+       </body>
